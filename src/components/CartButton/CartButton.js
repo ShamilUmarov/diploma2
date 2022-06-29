@@ -9,7 +9,7 @@ export default function CartButton({ productId }) {
   }
 
   return (
-    <button className="CartButton" onClick={onAddToCart}></button>
+    <button className="CartButton" onClick={onAddToCart}>Add to cards</button>
     
   );
 }
