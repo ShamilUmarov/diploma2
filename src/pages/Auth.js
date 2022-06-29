@@ -7,7 +7,6 @@ export default function Auth() {
   const { error, localId } = useSelector(store => store.auth);
   const navigate = useNavigate();
 
-
   function onAuthStart(event) {
     event.preventDefault();
 
@@ -27,7 +26,6 @@ export default function Auth() {
   if (error) {
     errorOutput = <strong style={{ color: "red" }}>{error}</strong>
   }
-
 
   return (
     <form onSubmit={onAuthStart}>
