@@ -23,7 +23,7 @@ export default function Auth() {
   }
 
   let errorOutput = null;
-  if (error) {
+  if (errorOutput) {
     errorOutput = <strong style={{ color: "red" }}>{error}</strong>
   }
 
