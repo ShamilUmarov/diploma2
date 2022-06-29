@@ -22,11 +22,14 @@ export default function Auth() {
     navigate('/');
   }
 
-
+  let errorOutput = null;
+  if (error) {
+    errorOutput = <strong style={{ color: "red" }}>{error}</strong>
+  }
 
   return (
     <form onSubmit={onAuthStart}>
-      
+      {errorOutput}
       <h1 className="Auth-title">Welcome</h1>
       <div className="Auth">
         <label>
