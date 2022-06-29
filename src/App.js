@@ -7,16 +7,13 @@ import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
-import About from "./pages/About";
 import Cart from "./pages/Cart";
-
 import Checkout from "./pages/Checkout";
 import Auth from "./pages/Auth";
 import SignOut from "./pages/SignOut";
+import History from "./pages/History";
 
 function App() {
-  
-
   return (
     <div className="App">
       <Layout>
@@ -27,11 +24,11 @@ function App() {
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:categoryId" element={<Category />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/signout" element={<SignOut />} />
+          <Route path="/history" element={<History />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
