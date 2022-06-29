@@ -29,6 +29,7 @@ export default function Auth() {
 
   return (
     <form onSubmit={onAuthStart}>
+      {errorOutput}
       <h1 className="Auth-title">Welcome</h1>
       <div className="Auth">
         <label>
@@ -36,7 +37,7 @@ export default function Auth() {
         </label>
         <label>
           <input
-            type="password" 
+            type="password"
             placeholder="Password"
             name="password"
             required
