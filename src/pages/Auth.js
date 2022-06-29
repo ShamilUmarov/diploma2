@@ -30,26 +30,17 @@ export default function Auth() {
   return (
     <form onSubmit={onAuthStart}>
       {errorOutput}
-      <h1 className="Auth-title">Welcome</h1>
-      <div className="Auth">
-        <label>
-          <input type="email" placeholder="E-mail" name="email" required />
-        </label>
-        <label>
-          <input
-            type="password"
-            placeholder="Password"
-            name="password"
-            required
-            minLength="6"
-          />
-        </label>
-      </div>
+      <label>
+        Email:
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Password:
+        <input type="password" name="password" />
+      </label>
 
-      <div className="Button-center">
-        <button className="Button">Sign in</button>
-        <button className="Button">Sign up</button>
-      </div>
+      <button>Sign in</button>
+      <button>Sign up</button>
     </form>
   );
 }
