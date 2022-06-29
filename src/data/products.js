@@ -149,7 +149,7 @@ const products = [
   {
     image: add3,
     productId: " Milka Choco creme Cookies",
-    categoryId: "Additives",
+    categoryId: "Additives", 
     title: "Milka Choco creme Cookies",
     lorem: "Great way to make your business appear trust and relevant.",
     description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
