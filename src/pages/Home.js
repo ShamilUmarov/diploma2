@@ -8,14 +8,14 @@ function Home() {
   return (
     <>
       <Header
-        title="Burger 
+        title="Sweet
    Bachelor"
         image={headerImage}
       ></Header>
 
       <div class="section-title ">
-        <span>Burger Menu</span>
-        <h3>Best Ever Burgers</h3>
+        <span>Sweet Menu</span>
+        <h3>The best sweets</h3>
       </div>
       <ProductList products={getProducts("Burgers")} />
       <Link class="boxed-btn5" to={"/products/"}>
