@@ -10,17 +10,17 @@
 }
 
 .NavItem a.active {
-  color: #f2c64d;
+  color: #5c5a56;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-bottom: 3.5px solid #f2c64d;
+  border-bottom: 3.5px solid #5c5a56;
 }
 
 .NavItem a:hover {
-  color: #f2c64d;
+  color: #5c5a56;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-bottom: 3.5px solid #f2c64d;
+  border-bottom: 3.5px solid #5c5a56;
 }
 
 .NavItem a::after {
@@ -55,11 +55,11 @@
 
   .NavItem a:hover {
     border-bottom: none;
-    border-right: 3.5px solid #f2c64d;
+    border-right: 3.5px solid dimgrey;
   }
 
   .NavItem a.active {
     border-bottom: none;
-    border-right: 3.5px solid #f2c64d;
+    border-right: 3.5px solid dimgrey;
   }
 }
