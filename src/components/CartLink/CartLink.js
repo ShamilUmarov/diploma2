@@ -13,7 +13,7 @@ export default function CartLink() {
   return (
     <NavLink className="Cartlink" to="/cart">
       <span className="CartLinkSpan">
-        <i className="fa-solid fa-cart-shopping CartLink"> </i> {number}
+       Cart {number}
       </span>
     </NavLink>
   );
