@@ -30,7 +30,7 @@ export default function Auth() {
   return (
     <form onSubmit={onAuthStart}>
       {errorOutput}
-      <h1 className="Auth-title">Welcome</h1>
+      <h1 className="Auth-title"></h1>
       <div className="Auth">
         <label>
           <input type="email" placeholder="E-mail" name="email" required />
