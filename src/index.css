@@ -46,7 +46,7 @@ button {
 }
 
 .section-title span {
-  color: #f2c64d;
+  color: dimgrey;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 18px;
@@ -83,13 +83,13 @@ button {
   padding: 12px;
   cursor: pointer;
   background: transparent;
-  color: #f0542c !important;
-  border: 1px solid #f0542c;
+  color: dimgrey !important;
+  border: 1px solid dimgrey;
 }
 
 .boxed-btn5:hover {
   color: white !important;
-  background-color: #f0542c;
+  background-color: #4b4645;
 }
 
 @media (max-width: 900px) {
@@ -128,7 +128,7 @@ button {
 
 .CartButton:hover {
   color: white !important;
-  background-color: #f0542c !important;
+  background-color: #686260 !important;
 }
 
 .CartLink {
@@ -302,7 +302,7 @@ input {
   height: 2.5rem;
   margin-bottom: 1rem;
   border-radius: .8rem;
-  border: 2px solid #f0542c;
+  border: 2px solid #0e0d0d;
   font-size: 1rem;
   padding-left: 10px;
 }
@@ -313,12 +313,12 @@ input {
 }
 
 .Button {
-  border: 1px solid #f0542c;
+  border: 1px solid #5e5b5a;
   margin: .5rem;
   padding:.2rem  1rem;
   border-radius: 2rem;
   background-color: transparent;
-  color: #f0542c;
+  color: #726a67;
   font-weight: bold;
   font-size: 1.5rem;
   cursor: pointer;
@@ -326,7 +326,7 @@ input {
 }
 
 .Button:not(:disabled):hover {
-  background-color: #f0542c;
+  background-color: #494645;
   color: white;
 }
 
@@ -348,7 +348,7 @@ input {
 .Auth-title {
  font-size: 45px;
   margin: 40px 0 10px 0;
-color: #f2c64d;
+color: black;
 font-weight: 400;
  display: block;
   font-family: "Pacifico", cursive;
