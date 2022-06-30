@@ -1,5 +1,5 @@
 import "./Logo.css";
-import image from "../../../assets/photo-top.webp";
+import image from "../../../assets/footer.jpg";
 
 function Logo() {
   return <img className="Logo" src={image} alt="" />;
